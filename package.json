@@ -1,0 +1,44 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-validation": "^1.0.2",
+    "fs": "0.0.1-security",
+    "generate-password": "^1.6.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mssql": "^6.1.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "rand-token": "^1.0.1",
+    "sequelize": "^5.22.4",
+    "socket.io": "^4.2.0",
+    "tedious": "^8.2.0",
+    "yarn": "^1.22.11"
+  },
+  "bin": {
+    "app": "connection.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "keywords": [],
+  "description": ""
+}

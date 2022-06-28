@@ -1,0 +1,7 @@
+{
+    "loginInvalidCredentials":"Connexion refusée. Mot de passe incorrect.",
+    "userNotFound": "L'utilisateur n'existe pas.",
+    "passwordNotSame": "doit être identique au mot de passe.",
+    "invalidCode":"code incorrect",
+    "yourNotConnected": "Vous avez un probleme avec votre session, merci de reconnecter."
+}
